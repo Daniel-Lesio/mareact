@@ -20,7 +20,7 @@ state = {
       posts.map(post=>{
         return (
           <div className="post  card" key={post.id}>
-            <img className='star' src={Star} alt="Star image"/>
+            <img className='star' src={Star} alt="Star"/>
             <div className="card-content">
               <Link to={'/post/'+ post.id} >
                 <span className=" card-title">
