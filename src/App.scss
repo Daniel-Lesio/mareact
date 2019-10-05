@@ -1,0 +1,13 @@
+.post {
+    position: relative;
+    min-height: 300px;
+    overflow: hidden;
+    .star{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 95%;
+        top: 60%;
+        height: 300px;
+        opacity: 0.2;
+    }
+}
